@@ -1,0 +1,20 @@
+
+
+#plateau {
+   background-color: white;
+}
+body{
+    background-color: orange;
+}
+
+.row:after {
+        content: "";
+        display: table;
+        clear: both;
+}
+
+.column{
+    margin-left: 15px;
+    float: left; 
+    width: 48%;
+}

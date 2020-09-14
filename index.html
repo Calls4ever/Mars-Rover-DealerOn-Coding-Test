@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang='en'>
+
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/main.css">
+        <title>
+
+        </title>
+    </head>
+    <body>
+        <div class="row">
+            <div class="column">
+                <form>
+                    <label>Please define area for rover to move</label>
+                    <input id="length" type="number" min="1" max="50"> x <input id="width" type="number" min="1" max="50">
+                <hr>
+                    <label>Give an initial position and direction </label>
+                    <input id="i-length" type="number" min="1" max="50"> x <input id="i-width" type="number" min="1" max="50">
+                    <select id="direction">
+                        <option>N</option>
+                        <option>E</option>
+                        <option>S</option>
+                        <option>W</option>
+                    </select>
+                    <br>
+                    <button type='submit' id="render-canvas">Lets go</button>    
+                </form>
+                <br>
+                <canvas id="plateau" height="500px" width="500px"></canvas>
+            </div>
+            <div class="column">
+                <h2 id="landscape">The landscape:</h2>
+                <hr>
+                <h2>Inputs:</h2>
+                <ul type='square' id='input-ul'>
+                </ul>
+                <hr>
+                <h2>Outputs:</h2>
+                <ul type='circle' id='output-ul'>
+                </ul>
+            </div>
+         </div>
+
+        <script src="src/main.js"></script>
+    </body>
+</html>
