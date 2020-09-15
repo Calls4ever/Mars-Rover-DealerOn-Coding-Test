@@ -13,12 +13,14 @@
     <body>
         <div class="row">
             <div class="column">
+                <!-- <generates the form for the plateau area, initial position and direction> -->
                 <form>
                     <label>Please define area for rover to move</label>
                     <input id="length" type="number" min="1" max="50"> x <input id="width" type="number" min="1" max="50">
                 <hr>
                     <label>Give an initial position and direction </label>
                     <input id="i-length" type="number" min="1" max="50"> x <input id="i-width" type="number" min="1" max="50">
+                    <!-- can select direction from this dropdown list -->
                     <select id="direction">
                         <option>N</option>
                         <option>E</option>
@@ -28,10 +30,14 @@
                     <br>
                     <button type='submit' id="render-canvas">Lets go</button>    
                 </form>
+
                 <h4><i>Note: </i>Use L or l to turn left, R or r to turn right and m or M to move the rover!
                     <br> Press Enter to print output and input!</h4>
+
+                    <!-- area of the plateau -->
                 <canvas id="plateau" height="500px" width="500px"></canvas>
             </div>
+            <!-- outputs column -->
             <div class="column">
                 <h2 >The landscape:</h2>
                 <h4 id="landscape"></h4>
@@ -52,3 +58,4 @@
         <script src="src/main.js"></script>
     </body>
 </html>
+<!-- thanks for reviewing! -->
