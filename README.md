@@ -6,4 +6,5 @@ I initially tried to code in `Typescript` but i am more confortable with `Javasc
 
 
 The program should look like this.
-https://github.com/Calls4ever/Mars-Rover-DealerOn-Coding-Test/blob/master/src/Animated%20GIF-downsized_large.gif
+
+![Alt Text]https://github.com/Calls4ever/Mars-Rover-DealerOn-Coding-Test/blob/master/src/Animated%20GIF-downsized_large.gif
